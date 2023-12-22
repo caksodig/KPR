@@ -14,7 +14,7 @@ const Activty = () => {
                 {/* Paragraf panjang di sebelah kiri */}
                 <div className="md:w-full lg:w-1/2 pr-8">
                     <p className="text-lg lg:text-left mb-6 md:mb-10">
-                        Diving deep into the rich tapestry of Indonesian culture unveils a vibrant and diverse mosaic that reflects the archipelago's unique blend of history, traditions, and ethnicities. Indonesia, with its over 17,000 islands, is a melting pot where influences from Malay, Javanese, Sundanese, Balinese, and myriad other communities converge. The cultural landscape is characterized by a harmonious interplay of indigenous customs and foreign elements, resulting from centuries of trade, migration, and colonialism. From the enchanting gamelan music that resonates through Java and Bali to the intricate Batik patterns adorning fabrics, each region contributes its distinct flavor to the overall cultural symphony.
+                        Diving deep into the rich tapestry of Indonesian culture unveils a vibrant and diverse mosaic that reflects the archipelagos unique blend of history, traditions, and ethnicities. Indonesia, with its over 17,000 islands, is a melting pot where influences from Malay, Javanese, Sundanese, Balinese, and myriad other communities converge. The cultural landscape is characterized by a harmonious interplay of indigenous customs and foreign elements, resulting from centuries of trade, migration, and colonialism. From the enchanting gamelan music that resonates through Java and Bali to the intricate Batik patterns adorning fabrics, each region contributes its distinct flavor to the overall cultural symphony.
                     </p>
                     <Link href="/About" className="group relative inline-flex items-center overflow-hidden rounded-3xl border border-current px-8 py-3 text-black focus:outline-none focus:ring active:text-black">
                         <span class="absolute -end-full transition-all group-hover:end-4">
@@ -42,7 +42,7 @@ const Activty = () => {
                     {/* Logo dan judul Our Activity */}
                     <div className="mb-4 lg:mb-10 flex items-center">
                         <img src="/image/k.png" alt="Logo" className="w-16 h-16 object-contain mr-4" />
-                        <h2 className="text-xl font-bold">Discuss About <br/> Indonesia Culture</h2>
+                        <h2 className="text-xl font-bold">Discuss About <br /> Indonesia Culture</h2>
                     </div>
 
                     <div className="mb-4 lg:mb-10 flex items-center">

@@ -15,13 +15,35 @@ const Gallery = () => {
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
-          className="h-6 w-6 text-indigo-500"
+          className="h-6 w-6 text-sky-200"
         >
           <path
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth="2"
             d="M21 15l-9-9 9-9M3 15l9-9-9-9"
+          />
+        </svg>
+      ),
+    },
+    {
+      src: "/image/gallery/g4.jpg",
+      title: "Traditional Games Fest",
+      description:
+        "Join in the fun and excitement of traditional Indonesian games during cultural festivals.",
+      culturalIcon: (
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          className="h-6 w-6 text-sky-200"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            d="M6 18L18 6M6 6l12 12"
           />
         </svg>
       ),
@@ -37,7 +59,52 @@ const Gallery = () => {
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
-          className="h-6 w-6 text-indigo-500"
+          className="h-6 w-6 text-sky-200"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            d="M12 19l-7-7 7-7 7 7-7 7zm0 0l-7-7 7-7 7 7-7 7zm0 0l-7-7 7-7 7 7-7 7z"
+          />
+        </svg>
+      ),
+    },
+
+    {
+      src: "/image/gallery/g2.jpg",
+      title: "Kecak Dance",
+      description:
+        "Balinese Kecak dance, a traditional dance and musical drama.",
+      culturalIcon: (
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          className="h-6 w-6 text-sky-200"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            d="M6 18L18 6M6 6l12 12"
+          />
+        </svg>
+      ),
+    },
+    {
+      src: "/image/gallery/g1.jpg",
+      title: "Wayang Kulit",
+      description:
+        "Traditional Indonesian shadow puppetry, Wayang Kulit performance.",
+      culturalIcon: (
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          className="h-6 w-6 text-sky-200"
         >
           <path
             strokeLinecap="round"
@@ -59,13 +126,35 @@ const Gallery = () => {
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
-          className="h-6 w-6 text-indigo-500"
+          className="h-6 w-6 text-sky-200"
         >
           <path
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth="2"
             d="M6 18L18 6M6 6l12 12"
+          />
+        </svg>
+      ),
+    },
+    {
+      src: "/image/gallery/g3.jpg",
+      title: "Batik Art",
+      description:
+        "Traditional Indonesian batik art, known for its intricate patterns.",
+      culturalIcon: (
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          className="h-6 w-6 text-sky-200"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            d="M21 15l-9-9 9-9M3 15l9-9-9-9"
           />
         </svg>
       ),
@@ -81,7 +170,7 @@ const Gallery = () => {
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
-          className="h-6 w-6 text-indigo-500"
+          className="h-6 w-6 text-sky-200"
         >
           <path
             strokeLinecap="round"
@@ -122,7 +211,7 @@ const Gallery = () => {
               />
               <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
                 <button
-                  className="bg-indigo-500 text-white px-4 py-2 rounded-md"
+                  className="bg-sky-200 px-4 py-2 rounded-md"
                   onClick={() => openImageDetails(image)}
                 >
                   View Details
@@ -146,7 +235,7 @@ const Gallery = () => {
               </div>
               <p className="text-gray-700">{selectedImage.description}</p>
               <button
-                className="mt-4 bg-indigo-500 text-white px-4 py-2 rounded-md"
+                className="mt-4 bg-sky-200  px-4 py-2 rounded-md"
                 onClick={closeImageDetails}
               >
                 Close

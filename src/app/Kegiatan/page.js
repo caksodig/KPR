@@ -72,7 +72,7 @@ const Kegiatan = () => {
             </h2>
 
             <p className="mt-1 text-sm text-gray-300">
-              Embark on a virtual journey through Indonesia's rich cultural
+              Embark on a virtual journey through Indonesia rich cultural
               heritage. Explore museums, artifacts, and historical sites from
               the comfort of your home.
             </p>

@@ -46,13 +46,13 @@ const About = () => {
             data-aos="fade-right"
             className="text-4xl md:text-7xl font-bold mb-5"
           >
-            Actively showcase Indonesia's cultural.{" "}
+            Actively showcase Indonesia cultural.{" "}
           </h2>
           <p
             data-aos="fade-right"
             className="text-lg md:text-3xl text-gray-600"
           >
-            Showcase Indonesia's cultural richness through various mediums, such
+            Showcase Indonesia cultural richness through various mediums, such
             as arts, literature, and media, to raise awareness and appreciation
           </p>
         </div>

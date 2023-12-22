@@ -6,20 +6,20 @@ const SecondSection = () => {
         <main className="flex flex-col lg:flex-row items-center justify-center w-full flex-1 px-6 text-center lg:text-left">
             <div className="lg:w-1/2 lg:pr-12 mb-8">
                 <h1 className="text-8xl font-bold lg:mb-10 mb-3">Pillars of Indonesian Culture</h1>
-                <p className="text-2xl">
-                    Welcome to our landing page! We're delighted to have you here.
+                <p className="text-xl">
+                    Welcome to our landing page! We are delighted to have you here.
                 </p>
-                <p className="text-2xl">
+                <p className="text-xl">
                     This page serves as your gateway to a world of information, resources,
                     and opportunities.
                 </p>
-                <p className="text-2xl">
+                <p className="text-xl">
                     Our goal is to provide you with a seamless and engaging experience,
                     guiding you towards the information you need and the possibilities
                     that await.
                 </p>
-                <p className="text-2xl mb-4 lg:mb-10">
-                    Thank you for visiting, and we hope you find exactly what you're
+                <p className="text-xl mb-4 lg:mb-10">
+                    Thank you for visiting, and we hope you find exactly what you are
                     looking for.
                 </p>
                 <Link href="/About" className="group relative inline-flex items-center overflow-hidden rounded-3xl border border-current px-8 py-3 text-black focus:outline-none focus:ring active:text-black">
@@ -43,7 +43,6 @@ const SecondSection = () => {
                     </Link>
             </div>
             <div className="lg:w-1/2">
-                {/* Replace the placeholder with your actual image */}
                 <img
                     src="/image/kotak.png"
                     alt="Image"
