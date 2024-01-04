@@ -1,5 +1,4 @@
 import { Montserrat } from "next/font/google";
-import Head from "next/head";
 import "./globals.css";
 import Navbar from "@/Components/utilities/Navbar";
 
@@ -17,14 +16,6 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head>
-        <link rel="icon" type="image/png" href="/favicon/logo.png" sizes="32x32" />
-        {/* Jika ingin menggunakan gambar sebagai favicon */}
-        {/* <link rel="icon" type="image/png" href="/favicon.png" sizes="32x32" /> */}
-        <meta charSet="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>{metadata.title}</title>
-      </Head>
       <body className={`$(Montserrat.variable)`}>
         <Navbar />
         {children}

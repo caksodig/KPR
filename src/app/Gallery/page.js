@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Footer from "@/Components/utilities/Footer";
+import Image from "next/image";
 
 const Gallery = () => {
   const galleryImages = [
@@ -203,7 +204,9 @@ const Gallery = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
           {galleryImages.map((image, index) => (
             <div key={index} className="relative group">
-              <img
+              <Image
+                width={300}
+                height={600}
                 src={image.src}
                 alt={image.title}
                 className="w-full h-64 object-cover rounded-md transition-transform transform group-hover:scale-105 cursor-pointer"
@@ -224,7 +227,9 @@ const Gallery = () => {
         {selectedImage && (
           <div className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center">
             <div className="bg-white p-8 rounded-lg max-w-md">
-              <img
+              <Image
+               width={300}
+               height={600}
                 src={selectedImage.src}
                 alt={selectedImage.title}
                 className="w-full h-64 object-cover mb-4 rounded-md"

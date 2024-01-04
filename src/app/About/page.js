@@ -3,6 +3,7 @@ import Footer from "@/Components/utilities/Footer";
 import Link from "next/link";
 import React, { useEffect } from "react";
 import AOS from "aos";
+import Image from "next/image";
 
 const About = () => {
   useEffect(() => {
@@ -32,7 +33,9 @@ const About = () => {
           </p>
         </div>
         <div className="w-full md:w-1/2 flex items-center justify-center">
-          <img
+          <Image
+           width={300}
+           height={300}
             className="lg:w-[300px] lg:h-[300px] p-2 max-w-full h-auto"
             src="/image/about/about1.png"
             alt="Gambar Konten"
@@ -57,7 +60,9 @@ const About = () => {
           </p>
         </div>
         <div className="w-full md:w-1/2 flex items-center justify-center">
-          <img
+          <Image
+           width={300}
+           height={300}
             className="lg:w-[300px] lg:h-[300px] p-2 max-w-full h-auto"
             src="/image/about/about2.png"
             alt="Gambar Konten"
@@ -77,7 +82,9 @@ const About = () => {
           </p>
         </div>
         <div className="w-full md:w-1/2 flex items-center justify-center">
-          <img
+          <Image
+          width={300}
+          height={300}
             className="lg:w-[300px] lg:h-[300px] p-2 max-w-full h-auto"
             src="/image/about/about3.png"
             alt="Gambar Konten"

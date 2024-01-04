@@ -30,7 +30,7 @@ const Home = () => {
     });
   };
   return (
-    <div className="bg-[#FEFFED]">
+    <div className="bg-ambark-200">
       <Hero />
       <ArticleLayout
         image="/image/artcle.png"
